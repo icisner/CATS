@@ -4,16 +4,17 @@
 <title>CAT Clicler</title>
 <script>  var nCat=0;</script>
 <script src="js/cats.js"></script>
+<link rel="stylesheet" href="css/style.css" >
 </head>
 <body>
 
 <!--h1>CAT Clicker</h1-->
 
 <!--h2>CAT Pic</h2-->
-<img src="img/cats-q-c-640-480-1.jpg" alt="CAT 1" style="width:304px;height:228px;">
+<img id="catpic" src="img/cats-q-c-640-480-1.jpg" alt="CAT 1" style="width:304px;height:228px;">
 <!--button><img src="img/cats-q-c-640-480-1.jpg"></button-->
-<button type="button" onclick="addCatCount(nCat)">Click Me!</button>
-<button type="button" onclick="resetCatCount(nCat)">Reset</button>
+<button id="catsclick" type="button" onclick="addCatCount(nCat)">Click Me!</button>
+<button id="catsreset" type="button" onclick="resetCatCount(nCat)">Reset</button>
 <p id ="Cat1">  </p>
 </body>
 </html>
